@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5)
+set(BULLET_VERSION 3.25)
+project(BulletSrc)
+set(BULLET_PHYSICS_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
+SUBDIRS(src)
+
